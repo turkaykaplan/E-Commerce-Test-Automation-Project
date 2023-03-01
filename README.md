@@ -1,6 +1,6 @@
 # E-Commerce Web Site - Test Automation Project with
 
-           SELENIUM	 CSV		LOG4J		POM		JUNIT		MAVEN		OOP		 
+           -SELENIUM	 -CSV	-LOG4J	-POM	-JUNIT	-MAVEN	-OOP		 
 # Test Scenario
 
 - Go to vatanbilgisayar.com. 

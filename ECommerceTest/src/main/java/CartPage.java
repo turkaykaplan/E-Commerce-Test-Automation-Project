@@ -24,12 +24,12 @@ public class CartPage extends BasePage {
 
     public void removeProduct() throws InterruptedException {
         Thread.sleep(500);
-        driver.findElement(By.xpath("//*[@class='icon-times-circle']")).click(); // /html/body/div[1]/main/div/div[2]/div/div[1]/div[1]/div[3]/div[2]/div[6]
+        driver.findElement(By.xpath("//*[@class='icon-times-circle']")).click(); 
     }
 
     public void clickHomePageButton() throws InterruptedException {
         Thread.sleep(500);
-        driver.findElement(By.xpath("//*[@class='navbar-brand']")).click(); // /html/body/div[1]/header/a
+        driver.findElement(By.xpath("//*[@class='navbar-brand']")).click(); 
     }
 
 

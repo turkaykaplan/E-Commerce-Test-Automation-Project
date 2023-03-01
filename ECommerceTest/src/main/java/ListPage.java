@@ -1,7 +1,6 @@
 import org.junit.Assert;
 import org.openqa.selenium.*;
 
-// 3. ÖGEYİ OTOMATİKLEŞTİR!!!!
 
 public class ListPage extends BasePage {
 

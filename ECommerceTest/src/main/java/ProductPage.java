@@ -1,7 +1,5 @@
 import org.openqa.selenium.*;
 
-// GOTOCART XPATH'İ DÜZENLE!!!!
-// ADDCART METODUNU DÜZENLE!!!!
 
 public class ProductPage extends BasePage {
     public ProductPage(WebDriver driver) {

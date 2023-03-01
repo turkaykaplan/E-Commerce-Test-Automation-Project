@@ -12,7 +12,7 @@ public class ListPage extends BasePage {
 
     public void scroll() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement otherPageButton = driver.findElement(By.xpath("//*[text()='2']")); // /html/body/main/div[4]/div/div/div[4]/div[4]/nav/ul/li[2]/a
+        WebElement otherPageButton = driver.findElement(By.xpath("//*[text()='2']")); 
         js.executeScript("arguments[0].scrollIntoView();", otherPageButton);
         otherPageButton.sendKeys(Keys.ENTER);
         //Thread.sleep(500);
@@ -30,7 +30,7 @@ public class ListPage extends BasePage {
     public void selectProduct() throws InterruptedException {
         //Thread.sleep(500);
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement selectThird = driver.findElement(By.xpath("//*[@class='product-list product-list--list-page'][3]//*[@class='product-list__link']"));   // /html/body/main/div[4]/div/div/div[4]/div[2]/div[3]/div[2]/a
+        WebElement selectThird = driver.findElement(By.xpath("//*[@class='product-list product-list--list-page'][3]//*[@class='product-list__link']")); 
         js.executeScript("arguments[0].scrollIntoView();", selectThird);
         //Thread.sleep(500);
         selectThird.sendKeys(Keys.ENTER);

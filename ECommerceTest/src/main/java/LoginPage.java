@@ -16,7 +16,7 @@ public class LoginPage extends BasePage{
     public void loginButton() throws InterruptedException {
         driver.findElement(By.id("type")).click();
         //Thread.sleep(500);
-        driver.findElement(By.xpath("//*[text()='Giriş Yap']")).click(); ///html/body/header/nav/div[3]/div[1]/div/div/div[2]/div[3]/div/div[1]/ul/li[1]/a
+        driver.findElement(By.xpath("//*[text()='Giriş Yap']")).click(); 
     }
 
 

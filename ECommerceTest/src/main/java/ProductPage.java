@@ -19,7 +19,7 @@ public class ProductPage extends BasePage {
 
     public void goCartButton() throws InterruptedException {
         Thread.sleep(500);
-        driver.findElement(By.xpath("//*[@class='btn btn-dark-blue goToBasket']")).click(); ///html/body/div[13]/div[2]/div[4]/div/div/div[3]/div/div/div[2]/form/input[3]
+        driver.findElement(By.xpath("//*[@class='btn btn-dark-blue goToBasket']")).click(); 
     }
 
 }
